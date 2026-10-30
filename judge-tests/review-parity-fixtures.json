@@ -1,0 +1,1165 @@
+[
+  {
+    "case_id": "project-release",
+    "variant": "native",
+    "bodies": {
+      "project-brief": "PURPOSE:\nPrepare the fictional release of CSV export and saved filters.\n\nTIMELINE:\nRelease: 2026-11-19. Mandatory QA sign-off: 2026-11-17.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+      "work-plan": "QA:\nQA runs from 2026-11-14 through 2026-11-17, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-19, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+      "handoff-note": "INSTRUCTION:\nPrepare the handoff for 2026-11-19; obtain QA sign-off by 2026-11-17.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:project-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:work-plan",
+        "passed": true
+      },
+      {
+        "name": "protected:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "dates:project-brief",
+        "passed": true
+      },
+      {
+        "name": "date_set:project-brief",
+        "passed": true
+      },
+      {
+        "name": "dates:work-plan",
+        "passed": true
+      },
+      {
+        "name": "date_set:work-plan",
+        "passed": true
+      },
+      {
+        "name": "dates:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "date_set:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "qa_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "project-release",
+    "variant": "saved",
+    "bodies": {
+      "project-brief": "PURPOSE:\nPrepare the fictional release of CSV export and saved filters.\n\nTIMELINE:\nRelease: 2026-11-19. Mandatory QA sign-off: 2026-11-17.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+      "work-plan": "QA:\nQA runs from 2026-11-14 through 2026-11-17, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-19, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+      "handoff-note": "INSTRUCTION:\nPrepare the handoff for 2026-11-19; obtain QA sign-off by 2026-11-17.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:project-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:work-plan",
+        "passed": true
+      },
+      {
+        "name": "protected:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "dates:project-brief",
+        "passed": true
+      },
+      {
+        "name": "date_set:project-brief",
+        "passed": true
+      },
+      {
+        "name": "dates:work-plan",
+        "passed": true
+      },
+      {
+        "name": "date_set:work-plan",
+        "passed": true
+      },
+      {
+        "name": "dates:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "date_set:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "qa_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "project-release",
+    "variant": "stale-date",
+    "bodies": {
+      "project-brief": "PURPOSE:\nPrepare the fictional release of CSV export and saved filters.\n\nTIMELINE:\nRelease: 2026-11-12. Mandatory QA sign-off: 2026-11-17.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+      "work-plan": "QA:\nQA runs from 2026-11-14 through 2026-11-17, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-19, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+      "handoff-note": "INSTRUCTION:\nPrepare the handoff for 2026-11-19; obtain QA sign-off by 2026-11-17.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:project-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:work-plan",
+        "passed": true
+      },
+      {
+        "name": "protected:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "dates:project-brief",
+        "passed": false
+      },
+      {
+        "name": "date_set:project-brief",
+        "passed": false
+      },
+      {
+        "name": "dates:work-plan",
+        "passed": true
+      },
+      {
+        "name": "date_set:work-plan",
+        "passed": true
+      },
+      {
+        "name": "dates:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "date_set:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "qa_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "project-release",
+    "variant": "wrong-derived-date",
+    "bodies": {
+      "project-brief": "PURPOSE:\nPrepare the fictional release of CSV export and saved filters.\n\nTIMELINE:\nRelease: 2026-11-19. Mandatory QA sign-off: 2026-11-17.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+      "work-plan": "QA:\nQA runs from 2026-11-15 through 2026-11-17, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-19, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+      "handoff-note": "INSTRUCTION:\nPrepare the handoff for 2026-11-19; obtain QA sign-off by 2026-11-17.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:project-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:work-plan",
+        "passed": true
+      },
+      {
+        "name": "protected:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "dates:project-brief",
+        "passed": true
+      },
+      {
+        "name": "date_set:project-brief",
+        "passed": true
+      },
+      {
+        "name": "dates:work-plan",
+        "passed": true
+      },
+      {
+        "name": "date_set:work-plan",
+        "passed": false
+      },
+      {
+        "name": "dates:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "date_set:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "qa_start",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "case_id": "project-release",
+    "variant": "lost-protected-content",
+    "bodies": {
+      "project-brief": "PURPOSE:\nREMOVED\n\nTIMELINE:\nRelease: 2026-11-19. Mandatory QA sign-off: 2026-11-17.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+      "work-plan": "QA:\nQA runs from 2026-11-14 through 2026-11-17, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-19, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+      "handoff-note": "INSTRUCTION:\nPrepare the handoff for 2026-11-19; obtain QA sign-off by 2026-11-17.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:project-brief",
+        "passed": false
+      },
+      {
+        "name": "protected:work-plan",
+        "passed": true
+      },
+      {
+        "name": "protected:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "dates:project-brief",
+        "passed": true
+      },
+      {
+        "name": "date_set:project-brief",
+        "passed": true
+      },
+      {
+        "name": "dates:work-plan",
+        "passed": true
+      },
+      {
+        "name": "date_set:work-plan",
+        "passed": true
+      },
+      {
+        "name": "dates:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "date_set:handoff-note",
+        "passed": true
+      },
+      {
+        "name": "qa_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-corrected",
+    "variant": "native",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": true
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-corrected",
+    "variant": "saved",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": true
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-corrected",
+    "variant": "wrong-percentage",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (65.0%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": false
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-corrected",
+    "variant": "opposite-decision",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is not met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": true
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": false
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-paper",
+    "variant": "native",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in North Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-paper",
+    "variant": "saved",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in North Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-paper",
+    "variant": "wrong-venue",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Other Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": false
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-paper",
+    "variant": "missing-link",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in North Hall. You may use the mobile RSVP form at rsvp on your phone (optional). Please bring a printed signed consent form from consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": false
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-paper",
+    "variant": "unrelated-change",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in North Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.\nChanged other event."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": false
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-revoke",
+    "variant": "native",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Cedar Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, Cedar Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-revoke",
+    "variant": "saved",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Cedar Hall. Use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone. No participant printing is required. Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, Cedar Hall. How do I prepare? Use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone. No participant printing is required. How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-revoke",
+    "variant": "wrong-venue",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Other Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, Cedar Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": false
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-revoke",
+    "variant": "missing-link",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Cedar Hall. You may use the mobile RSVP form at rsvp on your phone (optional). Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, Cedar Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": false
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "volunteer-revoke",
+    "variant": "unrelated-change",
+    "bodies": {
+      "volunteer-message": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Cedar Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Orientation lasts 45 minutes. No prior experience is required.",
+      "volunteer-faq": "When and where? 2026-11-03, 10:00, Cedar Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). How long is orientation? 45 minutes. Is experience required? No.",
+      "coordinator-checklist": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+      "workshop-invite": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.\nChanged other event."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:coordinator-checklist",
+        "passed": true
+      },
+      {
+        "name": "protected:workshop-invite",
+        "passed": false
+      },
+      {
+        "name": "venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-message",
+        "passed": true
+      },
+      {
+        "name": "venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "old_venue:volunteer-faq",
+        "passed": true
+      },
+      {
+        "name": "link:volunteer-faq",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-noop",
+    "variant": "native",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": true
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-noop",
+    "variant": "saved",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": true
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-noop",
+    "variant": "wrong-percentage",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (65.0%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": false
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "case_id": "research-noop",
+    "variant": "opposite-decision",
+    "bodies": {
+      "research-note": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+      "progress-brief": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is not met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+      "presentation-notes": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains."
+    },
+    "expected_checks": [
+      {
+        "name": "identity",
+        "passed": true
+      },
+      {
+        "name": "protected:research-note",
+        "passed": true
+      },
+      {
+        "name": "protected:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "protected:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "counts:research-note",
+        "passed": true
+      },
+      {
+        "name": "decision:research-note",
+        "passed": true
+      },
+      {
+        "name": "counts:progress-brief",
+        "passed": true
+      },
+      {
+        "name": "decision:progress-brief",
+        "passed": false
+      },
+      {
+        "name": "counts:presentation-notes",
+        "passed": true
+      },
+      {
+        "name": "decision:presentation-notes",
+        "passed": true
+      }
+    ]
+  }
+]

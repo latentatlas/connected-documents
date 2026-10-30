@@ -1,0 +1,27 @@
+Connected Documents RC1 — 30 October 2026
+
+Copied the current product and required helpers through an explicit file list.
+No private runtime, credit records, credentials, participant sessions or analysis
+are in this distribution. Original project files and frozen studies are retained.
+
+Release-only adjustments:
+- Account identity is bound to explicit local authorization rather than one
+  development account hard-coded in the transport and tests.
+- Added tests for missing/mismatched authorization and setup without reset.
+- Added a launcher for the immediate recorded walkthrough and separate live UI.
+- Added explicit new-scope setup with preserved evidence timestamps and no calls.
+- Recorded walkthrough defaults to English, accepts ?lang=tr, and has no study
+  entry link or misleading link to an unavailable live generation service.
+- Updated installation, evidence boundaries, submission copy and video plan.
+
+No new model experiment or human study was run for this release. No public
+repository, deployment, account permission, open-source grant or submission was
+made by preparing these files. The proposed license awaits an owner decision.
+
+Submission candidate (30 October 2026):
+- Added a recorded browser review build: explicit review, correction, accept, exact ZIP export, undo. No fresh inference.
+- Added 23 Python-parity field-check fixtures and five browser-engine flows.
+- Added --judge launch mode and a manifest-only source download.
+- Extended integrity verification to bind every judge example to the unchanged historical projection.
+- Updated setup instructions and distinguished live generation from recorded review.
+- Original runtime, study files and RC1 archives remain unchanged.

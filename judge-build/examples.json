@@ -1,0 +1,1259 @@
+{
+  "kind": "recorded_native_fictional_walkthrough",
+  "live_inference": false,
+  "workspace_url": null,
+  "human_trials": 0,
+  "independent_validation": false,
+  "cases": [
+    {
+      "id": "project-release",
+      "work": "project",
+      "job_id": "5c5a448da96e459bbdd7327f04beea7f",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nebius_token_factory",
+      "contract": "nebius_documents_v1",
+      "reasoning_enabled": false,
+      "completed_at": "2026-10-30T00:57:51.638252+00:00",
+      "action": "edit",
+      "manual_edit_rounds": 0,
+      "reviewer": "assistant_qa",
+      "changed_documents": 3,
+      "repaired_documents": 0,
+      "checks_passed": 11,
+      "checks_total": 11,
+      "disposition": "accepted",
+      "request_sha256": "e7b102fd8e80e1d4b80157dcc0817a5a724ff16c0116381cbc882fb2d38007ef",
+      "native_response_sha256": "11fff409de628cb1ef38c8fd907803a51b7509dbeb5090b220a9c53504e8b401",
+      "documents": [
+        {
+          "id": "project-brief",
+          "title": "Project brief",
+          "project_id": "synthetic-release-a",
+          "before": "PURPOSE:\nPrepare the fictional release of CSV export and saved filters.\n\nTIMELINE:\nRelease: 2026-11-12. Mandatory QA sign-off: 2026-11-10.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+          "native": "PURPOSE:\nPrepare the fictional release of CSV export and saved filters.\n\nTIMELINE:\nRelease: 2026-11-19. Mandatory QA sign-off: 2026-11-17.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+          "saved": "PURPOSE:\nPrepare the fictional release of CSV export and saved filters.\n\nTIMELINE:\nRelease: 2026-11-19. Mandatory QA sign-off: 2026-11-17.\n\nEXCLUSIONS:\nOffline mode is excluded. Do not add features or change ownership.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "72627544b29ba4a70f37a007851cbb583e9ab635826708d0fa738e522b7f79ae",
+          "native_sha256": "43f82aae971f5f9b463c1a2cabae705bf9c2cd1921d819215060f0c5ed64576a",
+          "saved_sha256": "43f82aae971f5f9b463c1a2cabae705bf9c2cd1921d819215060f0c5ed64576a"
+        },
+        {
+          "id": "work-plan",
+          "title": "Delivery work plan",
+          "project_id": "synthetic-release-a",
+          "before": "QA:\nQA runs from 2026-11-07 through 2026-11-10, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-12, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+          "native": "QA:\nQA runs from 2026-11-14 through 2026-11-17, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-19, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+          "saved": "QA:\nQA runs from 2026-11-14 through 2026-11-17, using a three-calendar-day lead-in.\n\nLAUNCH:\nThe release milestone is 2026-11-19, after QA sign-off.\n\nSCOPE:\nDeliver CSV export and saved filters. Release manager owns the launch decision.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "c242aee5a9e1263ffca868e9f9c19b320e26b01042ad0b1957e57d0dbfac680d",
+          "native_sha256": "74f451ea6359f88b19f3f6de81036dc3b3a19661066f3bb82459b4126512726b",
+          "saved_sha256": "74f451ea6359f88b19f3f6de81036dc3b3a19661066f3bb82459b4126512726b"
+        },
+        {
+          "id": "handoff-note",
+          "title": "Internal handoff note (unsent)",
+          "project_id": "synthetic-release-a",
+          "before": "INSTRUCTION:\nPrepare the handoff for 2026-11-12; obtain QA sign-off by 2026-11-10.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded.",
+          "native": "INSTRUCTION:\nPrepare the handoff for 2026-11-19; obtain QA sign-off by 2026-11-17.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded.",
+          "saved": "INSTRUCTION:\nPrepare the handoff for 2026-11-19; obtain QA sign-off by 2026-11-17.\n\nOWNERSHIP:\nThe release manager remains accountable. This draft sends no notification.\n\nEXCLUSIONS:\nOffline mode remains excluded.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "a3d000e27141fe132aabf02bf68166558772519805657821ddf25aa37ae66afd",
+          "native_sha256": "d3d21e07d2ae8327151612d6f8dccca07e33b235992018a71799f6ad70ad66fb",
+          "saved_sha256": "d3d21e07d2ae8327151612d6f8dccca07e33b235992018a71799f6ad70ad66fb"
+        }
+      ],
+      "packet": "project-release.zip",
+      "review_context": {
+        "kind": "source_derived_review_context_v1",
+        "work": "project",
+        "mode": "recorded",
+        "snapshot_sha256": "7458c41657038a4ac0d3c68c28bc6a80a99fb1ea355bc1e807826447673ead6c",
+        "expected": [
+          "Teslim: 2026-11-19 · QA onayı: 2026-11-17",
+          "Release: 2026-11-19 · QA sign-off: 2026-11-17"
+        ],
+        "calculations": [
+          [
+            "QA başlangıcı = 2026-11-17 − 3 takvim günü = 2026-11-14",
+            "QA start = 2026-11-17 − 3 calendar days = 2026-11-14"
+          ]
+        ],
+        "preserve": [
+          "Kapsam, sorumlular ve kapsam dışı özellikler aynı kalmalı.",
+          "Scope, owners and excluded features must remain unchanged."
+        ],
+        "documents": [
+          {
+            "id": "project-brief",
+            "title": [
+              "Proje özeti",
+              "Project brief"
+            ],
+            "audience": [
+              "Proje sahibi",
+              "Project owner"
+            ],
+            "purpose": [
+              "Kapsamı ve teslim taahhüdünü takip eder.",
+              "Tracks scope and the delivery commitment."
+            ],
+            "project_id": "synthetic-release-a",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Teslim: 2026-11-19 · QA onayı: 2026-11-17",
+              "Release: 2026-11-19 · QA sign-off: 2026-11-17"
+            ],
+            "source_ids": [
+              "release-decision-a"
+            ]
+          },
+          {
+            "id": "work-plan",
+            "title": [
+              "İş planı",
+              "Work plan"
+            ],
+            "audience": [
+              "Uygulama ve test ekibi",
+              "Delivery and QA team"
+            ],
+            "purpose": [
+              "Testlerin ne zaman başlayacağını ve tamamlanacağını planlar.",
+              "Plans when testing starts and finishes."
+            ],
+            "project_id": "synthetic-release-a",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Teslim: 2026-11-19 · QA onayı: 2026-11-17",
+              "Release: 2026-11-19 · QA sign-off: 2026-11-17"
+            ],
+            "source_ids": [
+              "release-decision-a"
+            ]
+          },
+          {
+            "id": "handoff-note",
+            "title": [
+              "Devir notu",
+              "Handoff note"
+            ],
+            "audience": [
+              "İşi devralan ekip",
+              "Receiving team"
+            ],
+            "purpose": [
+              "Teslimin hangi tarihte ve hangi koşullarla yapılacağını kontrol eder.",
+              "Checks the handoff date and conditions."
+            ],
+            "project_id": "synthetic-release-a",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Teslim: 2026-11-19 · QA onayı: 2026-11-17",
+              "Release: 2026-11-19 · QA sign-off: 2026-11-17"
+            ],
+            "source_ids": [
+              "release-decision-a"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "release-decision-a",
+            "text": "Author-confirmed fictional project facts: {\"owner\": \"Release manager\", \"qa_signoff\": \"2026-11-17\", \"release_date\": \"2026-11-19\", \"scope\": \"CSV export and saved filters; offline mode excluded\"}. QA starts three calendar days before sign-off. Keep scope, ownership and exclusions unchanged.",
+            "version": 2,
+            "sha256": "4351323bac255511e4a2be2760eea9760b0fe14f2c9f59bdc111437ff45d469b"
+          }
+        ],
+        "semantic_correctness_confirmed": false
+      }
+    },
+    {
+      "id": "research-corrected",
+      "work": "research",
+      "job_id": "b9115341bd414b1f87e50f59b7b10ee5",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nebius_token_factory",
+      "contract": "nebius_documents_v3_reasoning",
+      "reasoning_enabled": true,
+      "completed_at": "2026-10-30T01:42:17.555270+00:00",
+      "action": "edit",
+      "manual_edit_rounds": 0,
+      "reviewer": "assistant_qa",
+      "changed_documents": 3,
+      "repaired_documents": 0,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "disposition": "accepted",
+      "request_sha256": "8b8bc92514cebdf3adbb59e84392889d7acdd8528c112ac0d5b9b6479ec59d4a",
+      "native_response_sha256": "eaf7beff62061df554623e1a0ef534ec3224aa691bcca0c0e0419127c44f1205",
+      "documents": [
+        {
+          "id": "research-note",
+          "title": "Research result note",
+          "project_id": "synthetic-research-a",
+          "before": "FINDING:\nOctober cohort A: 26/40 tasks passed (65.0%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is NOT met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+          "native": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+          "saved": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "340335214458068b5cd48cf79a0fdce49195f5f9febd138e0f83a1acb225aeaf",
+          "native_sha256": "aeeafd61dfd99b3e06d9182fc1e6e1faa50cdb8c54ec1d5057f00458b3d4480b",
+          "saved_sha256": "aeeafd61dfd99b3e06d9182fc1e6e1faa50cdb8c54ec1d5057f00458b3d4480b"
+        },
+        {
+          "id": "progress-brief",
+          "title": "Research progress brief",
+          "project_id": "synthetic-research-a",
+          "before": "FINDING:\nThe corrected pilot record reports 65.0%, from 26 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is NOT met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+          "native": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+          "saved": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "3971af3698b9a2f8a6509aaec38cc5b610edecf7216aaa8644d743d5ce2b81dc",
+          "native_sha256": "8621ae0582817a3029a4c324abf775ea503ef81eca451e474ffa37cd8644f33e",
+          "saved_sha256": "8621ae0582817a3029a4c324abf775ea503ef81eca451e474ffa37cd8644f33e"
+        },
+        {
+          "id": "presentation-notes",
+          "title": "Presentation speaking notes",
+          "project_id": "synthetic-research-a",
+          "before": "FINDING:\nSay: In our fictional October cohort A, 26 of 40 tasks passed, a descriptive rate of 65.0%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is NOT met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains.",
+          "native": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains.",
+          "saved": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "e3c70185764d27f764cd98a28502a9c698326367c19d36121ec002b3fdb8873d",
+          "native_sha256": "13929c8480a0a33c7061d83528a2b58e595c34b0e636a4275859d034d60c2553",
+          "saved_sha256": "13929c8480a0a33c7061d83528a2b58e595c34b0e636a4275859d034d60c2553"
+        }
+      ],
+      "packet": "research-corrected.zip",
+      "review_context": {
+        "kind": "source_derived_review_context_v1",
+        "work": "research",
+        "mode": "recorded",
+        "snapshot_sha256": "ed465064a507b9cfe7825f539c34f60cbc52be91c9229e56c1e3ff1dd31553b0",
+        "expected": [
+          "Aynı çalışma: 33 / 40 · %82.5",
+          "Same study: 33 / 40 · 82.5%"
+        ],
+        "calculations": [
+          [
+            "33 ÷ 40 × 100 = %82.5",
+            "33 ÷ 40 × 100 = 82.5%"
+          ],
+          [
+            "%75 eşiği karşılanıyor. Karar bu hesaba bağlı.",
+            "The 75% threshold is met. The decision follows this calculation."
+          ]
+        ],
+        "preserve": [
+          "Yöntem, sınırlılıklar ve genelleme yapılmaması korunmalı.",
+          "Preserve the method, limitations and restriction on generalization."
+        ],
+        "documents": [
+          {
+            "id": "research-note",
+            "title": [
+              "Sonuç notu",
+              "Result note"
+            ],
+            "audience": [
+              "Araştırmacı",
+              "Researcher"
+            ],
+            "purpose": [
+              "Sonucun sayılarını, hesabını ve yöntemini kontrol eder.",
+              "Checks the counts, calculation and method."
+            ],
+            "project_id": "synthetic-research-a",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Aynı çalışma: 33 / 40 · %82.5",
+              "Same study: 33 / 40 · 82.5%"
+            ],
+            "source_ids": [
+              "cohort-a-results"
+            ]
+          },
+          {
+            "id": "progress-brief",
+            "title": [
+              "İlerleme özeti",
+              "Progress brief"
+            ],
+            "audience": [
+              "Proje sorumlusu",
+              "Project lead"
+            ],
+            "purpose": [
+              "Sonuca bağlı devam kararını değerlendirir.",
+              "Reviews the continuation decision based on the result."
+            ],
+            "project_id": "synthetic-research-a",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Aynı çalışma: 33 / 40 · %82.5",
+              "Same study: 33 / 40 · 82.5%"
+            ],
+            "source_ids": [
+              "cohort-a-results"
+            ]
+          },
+          {
+            "id": "presentation-notes",
+            "title": [
+              "Sunum notları",
+              "Speaking notes"
+            ],
+            "audience": [
+              "Sunumu yapan kişi",
+              "Presenter"
+            ],
+            "purpose": [
+              "Aynı sonucu ve sınırlılıkları dinleyicilere aktarır.",
+              "Communicates the same result and limitations."
+            ],
+            "project_id": "synthetic-research-a",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Aynı çalışma: 33 / 40 · %82.5",
+              "Same study: 33 / 40 · 82.5%"
+            ],
+            "source_ids": [
+              "cohort-a-results"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "cohort-a-results",
+            "text": "Author-confirmed corrected fictional results for this SAME cohort: {\"cohort\": \"October cohort A\", \"method\": \"Fixed authored tasks, one local run, unchanged scoring rubric\", \"passed\": 33, \"total\": 40}. The authored continuation threshold is 75%. Compute the percentage to one decimal place and update the conclusion. Method and limitations are unchanged.",
+            "version": 3,
+            "sha256": "d3add2a47eccb11567cab558e96db8bdca7e9d8353519c8dafc7f72234989d84"
+          }
+        ],
+        "semantic_correctness_confirmed": false
+      }
+    },
+    {
+      "id": "volunteer-paper",
+      "work": "volunteer",
+      "job_id": "c958104444684213afd29760691d1f1c",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nebius_token_factory",
+      "contract": "nebius_documents_v3_reasoning",
+      "reasoning_enabled": true,
+      "completed_at": "2026-10-30T01:35:17.084466+00:00",
+      "action": "edit",
+      "manual_edit_rounds": 0,
+      "reviewer": "assistant_qa",
+      "changed_documents": 2,
+      "repaired_documents": 0,
+      "checks_passed": 9,
+      "checks_total": 9,
+      "disposition": "accepted",
+      "request_sha256": "4d04a501210a71b2b143307709d5c44e6f462fbba70cfa76f72bf0a811bd9287",
+      "native_response_sha256": "200aa05f4d3742d8867c2060629fa6ec7450896d09f289d2d2aa768f43d4851c",
+      "documents": [
+        {
+          "id": "volunteer-message",
+          "title": "Volunteer welcome message (unsent)",
+          "project_id": "volunteer-onboarding",
+          "before": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in South Hall. Use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone. No participant printing is required. Orientation lasts 45 minutes. No prior experience is required.",
+          "native": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in North Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+          "saved": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in North Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "860d3897abf8bca69c878a1dbb818475ead1cf662085087d04531dd2c12f9b54",
+          "native_sha256": "7f90f3f3b01f8083c2c409bc1eb8c1ccaffeac255d84b82018043b7dbc633536",
+          "saved_sha256": "7f90f3f3b01f8083c2c409bc1eb8c1ccaffeac255d84b82018043b7dbc633536"
+        },
+        {
+          "id": "volunteer-faq",
+          "title": "Volunteer orientation FAQ",
+          "project_id": "volunteer-onboarding",
+          "before": "When and where? 2026-11-03, 10:00, South Hall. How do I prepare? Use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone. No participant printing is required. How long is orientation? 45 minutes. Is experience required? No.",
+          "native": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+          "saved": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+          "changed": true,
+          "repaired": false,
+          "before_sha256": "e3ada725890d53c0f9687b99974c3c5f11f65e1018094a06961a9b5e89e98916",
+          "native_sha256": "4e01aaa458a5c3ba4f07ee144c67e91d0e3080de0df4d5eca86648787f52864b",
+          "saved_sha256": "4e01aaa458a5c3ba4f07ee144c67e91d0e3080de0df4d5eca86648787f52864b"
+        },
+        {
+          "id": "coordinator-checklist",
+          "title": "Coordinator checklist",
+          "project_id": "volunteer-onboarding",
+          "before": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+          "native": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+          "saved": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+          "changed": false,
+          "repaired": false,
+          "before_sha256": "5e2a43ca2e5d665c31bc7fe80ac9dcedadaeaf63786706067b197bbf147594eb",
+          "native_sha256": "5e2a43ca2e5d665c31bc7fe80ac9dcedadaeaf63786706067b197bbf147594eb",
+          "saved_sha256": "5e2a43ca2e5d665c31bc7fe80ac9dcedadaeaf63786706067b197bbf147594eb"
+        },
+        {
+          "id": "workshop-invite",
+          "title": "Separate workshop invitation (unsent)",
+          "project_id": "writing-workshop",
+          "before": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.",
+          "native": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.",
+          "saved": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.",
+          "changed": false,
+          "repaired": false,
+          "before_sha256": "28bc2640df1e25cef0ebacf91f6e19b3eb93607abfae3dca0533e94a8b9ff1c9",
+          "native_sha256": "28bc2640df1e25cef0ebacf91f6e19b3eb93607abfae3dca0533e94a8b9ff1c9",
+          "saved_sha256": "28bc2640df1e25cef0ebacf91f6e19b3eb93607abfae3dca0533e94a8b9ff1c9"
+        }
+      ],
+      "packet": "volunteer-paper.zip",
+      "review_context": {
+        "kind": "source_derived_review_context_v1",
+        "work": "volunteer",
+        "mode": "recorded",
+        "snapshot_sha256": "a440c99b820278562b910e0dd69599f42cbcefb5289e7aa5df4974fe97776f45",
+        "expected": [
+          "Mekân: North Hall · Bu gönüllü grubu imzalı kâğıt onay getirmeli.",
+          "Venue: North Hall · This volunteer group must bring signed paper consent."
+        ],
+        "calculations": [
+          [
+            "Yalnız gönüllü grubunun en son geçerli kararı uygulanır. İptal edilen kuraldan kalan ifadeleri ayrıca okuyun.",
+            "Apply only the latest active volunteer decision. Read for wording left over from a revoked rule."
+          ]
+        ],
+        "preserve": [
+          "Koordinatör belgesi ve başka etkinliğin daveti kelimesi kelimesine aynı kalmalı.",
+          "The coordinator checklist and the other event invitation must remain word-for-word unchanged."
+        ],
+        "documents": [
+          {
+            "id": "volunteer-message",
+            "title": [
+              "Gönüllü daveti",
+              "Volunteer invitation"
+            ],
+            "audience": [
+              "Gönüllü",
+              "Volunteer"
+            ],
+            "purpose": [
+              "Nereye gideceğini ve nasıl hazırlanacağını öğrenir.",
+              "Learns where to go and how to prepare."
+            ],
+            "project_id": "volunteer-onboarding",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Mekân: North Hall · Bu gönüllü grubu imzalı kâğıt onay getirmeli.",
+              "Venue: North Hall · This volunteer group must bring signed paper consent."
+            ],
+            "source_ids": [
+              "s-venue",
+              "s-rsvp",
+              "s-roster",
+              "p-global",
+              "ui-decision-2",
+              "ui-decision-3",
+              "ui-decision-4"
+            ]
+          },
+          {
+            "id": "volunteer-faq",
+            "title": [
+              "Sık sorulan sorular",
+              "Volunteer FAQ"
+            ],
+            "audience": [
+              "Gönüllü ve destek ekibi",
+              "Volunteers and support team"
+            ],
+            "purpose": [
+              "Kayıt ve hazırlık sorularına tutarlı yanıt verir.",
+              "Answers registration and preparation questions consistently."
+            ],
+            "project_id": "volunteer-onboarding",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Mekân: North Hall · Bu gönüllü grubu imzalı kâğıt onay getirmeli.",
+              "Venue: North Hall · This volunteer group must bring signed paper consent."
+            ],
+            "source_ids": [
+              "s-venue",
+              "s-rsvp",
+              "s-roster",
+              "p-global",
+              "ui-decision-2",
+              "ui-decision-3",
+              "ui-decision-4"
+            ]
+          },
+          {
+            "id": "coordinator-checklist",
+            "title": [
+              "Ekibin kontrol listesi",
+              "Internal checklist"
+            ],
+            "audience": [
+              "Koordinatör",
+              "Coordinator"
+            ],
+            "purpose": [
+              "İç operasyonun ayrı kurallarını uygular.",
+              "Follows separate internal operating rules."
+            ],
+            "project_id": "volunteer-onboarding",
+            "targeted": false,
+            "changed": false,
+            "expected": [
+              "Bu değişiklik uygulanmaz. Metnin tamamını koru.",
+              "This change does not apply. Preserve all text."
+            ],
+            "source_ids": []
+          },
+          {
+            "id": "workshop-invite",
+            "title": [
+              "Başka etkinliğin daveti",
+              "Other event invitation"
+            ],
+            "audience": [
+              "Başka etkinliğin katılımcısı",
+              "Participant in another event"
+            ],
+            "purpose": [
+              "Bu değişikliğin kapsamı dışındaki etkinliğe hazırlanır.",
+              "Prepares for an event outside this change's scope."
+            ],
+            "project_id": "writing-workshop",
+            "targeted": false,
+            "changed": false,
+            "expected": [
+              "Bu değişiklik uygulanmaz. Metnin tamamını koru.",
+              "This change does not apply. Preserve all text."
+            ],
+            "source_ids": []
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "s-venue",
+            "version": 4,
+            "text": "Confirmed fictional volunteer orientation: 2026-11-03 at 10:00 in North Hall. Duration 45 minutes. No prior experience is required.",
+            "sha256": "310a4a934d92f27e47c72b46b60ffaadac505523864d8f7d51bd4d55ffdca320"
+          },
+          {
+            "source_id": "s-rsvp",
+            "version": 1,
+            "text": "The approved volunteer mobile RSVP form is https://example.invalid/volunteer/rsvp. It works on a phone. Whether it is required or optional follows the latest applicable user decision.",
+            "sha256": "e5c59ac9336393cf4c881aa72caa1e902ed7eb2c12aa9722f7c63dd8edb2378a"
+          },
+          {
+            "source_id": "s-roster",
+            "version": 1,
+            "text": "The coordinator must print one attendance roster for internal check-in. This is operator paperwork, separate from participant registration.",
+            "sha256": "b80f6686f2e7d85e3cc51f191ce42b8861f475d310b8a792e0324f246a17b221"
+          },
+          {
+            "source_id": "p-global",
+            "version": 1,
+            "text": "Earlier user feedback from workshop work: From now on, across my projects, participant-facing instructions must work on a phone and must not require printing. This remains my default until I change it. It does not apply to internal operator paperwork.",
+            "sha256": "c42d33185457037296d6982f5152b323ab5006f5e57f075bc109dea289359d09",
+            "decision": {
+              "event_id": "event-p-global",
+              "sequence": 1,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "set",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "*",
+                "audience": "participants"
+              },
+              "value": "Phone-friendly participant instructions; no required printing.",
+              "revokes_event_id": null
+            },
+            "record_sha256": "e6e359444f43aaaba473470f389b0779a23d8baa40735da800f2d856629dec75"
+          },
+          {
+            "source_id": "ui-decision-2",
+            "text": "For volunteer-onboarding participants ONLY, require printed signed consent from https://example.invalid/volunteer/consent.pdf; mobile RSVP is optional and cannot replace paper consent. Other projects and operator paperwork retain their current policies.",
+            "version": 1,
+            "sha256": "163cf62092096b937f1824c01f01f343d704a6eb6152493fb38ed76c1d689832",
+            "decision": {
+              "event_id": "event-ui-decision-2",
+              "sequence": 2,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "set",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "volunteer-onboarding",
+                "audience": "participants"
+              },
+              "value": "Printed signed consent is required; mobile RSVP is optional and does not replace paper consent.",
+              "revokes_event_id": null
+            },
+            "record_sha256": "ec581145c841055e59a46e3d5a8db34681c67ad33dfc9a89c15f21bbd5f715ec"
+          },
+          {
+            "source_id": "ui-decision-3",
+            "text": "Revoke the volunteer-onboarding paper-consent exception. Restore the phone-friendly default with mobile RSVP and no required participant printing. Keep other projects and internal coordinator paperwork unchanged.",
+            "version": 1,
+            "sha256": "2178b505984e6024258e279905ca1ca0d7d79c064aa395133042e473d39fc0f5",
+            "decision": {
+              "event_id": "event-ui-decision-3",
+              "sequence": 3,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "revoke",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "volunteer-onboarding",
+                "audience": "participants"
+              },
+              "value": null,
+              "revokes_event_id": "event-ui-decision-2"
+            },
+            "record_sha256": "b966617062fdd4d922d006da57617bad81d4cd1b440b6cc4f110c1751f9afe38"
+          },
+          {
+            "source_id": "ui-decision-4",
+            "text": "For volunteer-onboarding participants ONLY, require printed signed consent from https://example.invalid/volunteer/consent.pdf; mobile RSVP is optional and cannot replace paper consent. Other projects and operator paperwork retain their current policies.",
+            "version": 1,
+            "sha256": "163cf62092096b937f1824c01f01f343d704a6eb6152493fb38ed76c1d689832",
+            "decision": {
+              "event_id": "event-ui-decision-4",
+              "sequence": 4,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "set",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "volunteer-onboarding",
+                "audience": "participants"
+              },
+              "value": "Printed signed consent is required; mobile RSVP is optional and does not replace paper consent.",
+              "revokes_event_id": null
+            },
+            "record_sha256": "45eeaf707e249b6111462322d9a3d71f9e6d9e7545cd677bfd3f10ad3c3f4f91"
+          }
+        ],
+        "semantic_correctness_confirmed": false
+      }
+    },
+    {
+      "id": "volunteer-revoke",
+      "work": "volunteer",
+      "job_id": "241bc3468bda41e6924b06cbca09c559",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nebius_token_factory",
+      "contract": "nebius_documents_v3_reasoning",
+      "reasoning_enabled": true,
+      "completed_at": "2026-10-30T01:38:41.478256+00:00",
+      "action": "edit",
+      "manual_edit_rounds": 1,
+      "reviewer": "assistant_qa",
+      "changed_documents": 2,
+      "repaired_documents": 2,
+      "checks_passed": 9,
+      "checks_total": 9,
+      "disposition": "accepted",
+      "request_sha256": "a8fd61b907e41eeea18110173944c608697346a4944271ec88cd16a2cbc627cb",
+      "native_response_sha256": "33238023c138ba467e5bc295707e016edd6a6259742c85b86a2cb5e338cc9d06",
+      "documents": [
+        {
+          "id": "volunteer-message",
+          "title": "Volunteer welcome message (unsent)",
+          "project_id": "volunteer-onboarding",
+          "before": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in North Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. Orientation lasts 45 minutes. No prior experience is required.",
+          "native": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Cedar Hall. You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Orientation lasts 45 minutes. No prior experience is required.",
+          "saved": "Welcome to volunteer orientation on 2026-11-03 at 10:00 in Cedar Hall. Use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone. No participant printing is required. Orientation lasts 45 minutes. No prior experience is required.",
+          "changed": true,
+          "repaired": true,
+          "before_sha256": "7f90f3f3b01f8083c2c409bc1eb8c1ccaffeac255d84b82018043b7dbc633536",
+          "native_sha256": "4309561a80772ffd3c67b0f733dba5e8858ba59b048d291e3047f5a856c073ea",
+          "saved_sha256": "a2b5b044038d3a9e6d53f244c7f24daf9624183ff194efc12d12463433375046"
+        },
+        {
+          "id": "volunteer-faq",
+          "title": "Volunteer orientation FAQ",
+          "project_id": "volunteer-onboarding",
+          "before": "When and where? 2026-11-03, 10:00, North Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). Please bring a printed signed consent form from https://example.invalid/volunteer/consent.pdf. How long is orientation? 45 minutes. Is experience required? No.",
+          "native": "When and where? 2026-11-03, 10:00, Cedar Hall. How do I prepare? You may use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone (optional). How long is orientation? 45 minutes. Is experience required? No.",
+          "saved": "When and where? 2026-11-03, 10:00, Cedar Hall. How do I prepare? Use the mobile RSVP form at https://example.invalid/volunteer/rsvp on your phone. No participant printing is required. How long is orientation? 45 minutes. Is experience required? No.",
+          "changed": true,
+          "repaired": true,
+          "before_sha256": "4e01aaa458a5c3ba4f07ee144c67e91d0e3080de0df4d5eca86648787f52864b",
+          "native_sha256": "7db4df945d2e4fc3be0ed4cbc1c38d626057549999471cadfb544f7b5ceb5c7b",
+          "saved_sha256": "26e8e12042e632414b13bfb6861d880a7c2a6669e9503b085cc93580a47dfd8a"
+        },
+        {
+          "id": "coordinator-checklist",
+          "title": "Coordinator checklist",
+          "project_id": "volunteer-onboarding",
+          "before": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+          "native": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+          "saved": "The coordinator prints one attendance roster for internal check-in. Prepare the welcome desk and keep the roster with the coordinator. This operator-only roster is separate from participant registration.",
+          "changed": false,
+          "repaired": false,
+          "before_sha256": "5e2a43ca2e5d665c31bc7fe80ac9dcedadaeaf63786706067b197bbf147594eb",
+          "native_sha256": "5e2a43ca2e5d665c31bc7fe80ac9dcedadaeaf63786706067b197bbf147594eb",
+          "saved_sha256": "5e2a43ca2e5d665c31bc7fe80ac9dcedadaeaf63786706067b197bbf147594eb"
+        },
+        {
+          "id": "workshop-invite",
+          "title": "Separate workshop invitation (unsent)",
+          "project_id": "writing-workshop",
+          "before": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.",
+          "native": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.",
+          "saved": "Writing workshop: 2026-11-06 at 14:00 in Elm Room. Confirm at https://example.invalid/workshop/rsvp on your phone. No printing is required. Bring your draft on your device.",
+          "changed": false,
+          "repaired": false,
+          "before_sha256": "28bc2640df1e25cef0ebacf91f6e19b3eb93607abfae3dca0533e94a8b9ff1c9",
+          "native_sha256": "28bc2640df1e25cef0ebacf91f6e19b3eb93607abfae3dca0533e94a8b9ff1c9",
+          "saved_sha256": "28bc2640df1e25cef0ebacf91f6e19b3eb93607abfae3dca0533e94a8b9ff1c9"
+        }
+      ],
+      "packet": "volunteer-revoke.zip",
+      "review_context": {
+        "kind": "source_derived_review_context_v1",
+        "work": "volunteer",
+        "mode": "recorded",
+        "snapshot_sha256": "4e68fdb86e9f81592aeeee23298cda893801b1b9469bc5745fffb6f03a41b3b1",
+        "expected": [
+          "Mekân: Cedar Hall · Telefondan kayıt; katılımcının çıktı alması gerekmiyor.",
+          "Venue: Cedar Hall · Phone-friendly registration; no participant printing required."
+        ],
+        "calculations": [
+          [
+            "Yalnız gönüllü grubunun en son geçerli kararı uygulanır. İptal edilen kuraldan kalan ifadeleri ayrıca okuyun.",
+            "Apply only the latest active volunteer decision. Read for wording left over from a revoked rule."
+          ]
+        ],
+        "preserve": [
+          "Koordinatör belgesi ve başka etkinliğin daveti kelimesi kelimesine aynı kalmalı.",
+          "The coordinator checklist and the other event invitation must remain word-for-word unchanged."
+        ],
+        "documents": [
+          {
+            "id": "volunteer-message",
+            "title": [
+              "Gönüllü daveti",
+              "Volunteer invitation"
+            ],
+            "audience": [
+              "Gönüllü",
+              "Volunteer"
+            ],
+            "purpose": [
+              "Nereye gideceğini ve nasıl hazırlanacağını öğrenir.",
+              "Learns where to go and how to prepare."
+            ],
+            "project_id": "volunteer-onboarding",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Mekân: Cedar Hall · Telefondan kayıt; katılımcının çıktı alması gerekmiyor.",
+              "Venue: Cedar Hall · Phone-friendly registration; no participant printing required."
+            ],
+            "source_ids": [
+              "s-venue",
+              "s-rsvp",
+              "s-roster",
+              "p-global",
+              "ui-decision-2",
+              "ui-decision-3",
+              "ui-decision-4",
+              "ui-decision-5"
+            ]
+          },
+          {
+            "id": "volunteer-faq",
+            "title": [
+              "Sık sorulan sorular",
+              "Volunteer FAQ"
+            ],
+            "audience": [
+              "Gönüllü ve destek ekibi",
+              "Volunteers and support team"
+            ],
+            "purpose": [
+              "Kayıt ve hazırlık sorularına tutarlı yanıt verir.",
+              "Answers registration and preparation questions consistently."
+            ],
+            "project_id": "volunteer-onboarding",
+            "targeted": true,
+            "changed": true,
+            "expected": [
+              "Mekân: Cedar Hall · Telefondan kayıt; katılımcının çıktı alması gerekmiyor.",
+              "Venue: Cedar Hall · Phone-friendly registration; no participant printing required."
+            ],
+            "source_ids": [
+              "s-venue",
+              "s-rsvp",
+              "s-roster",
+              "p-global",
+              "ui-decision-2",
+              "ui-decision-3",
+              "ui-decision-4",
+              "ui-decision-5"
+            ]
+          },
+          {
+            "id": "coordinator-checklist",
+            "title": [
+              "Ekibin kontrol listesi",
+              "Internal checklist"
+            ],
+            "audience": [
+              "Koordinatör",
+              "Coordinator"
+            ],
+            "purpose": [
+              "İç operasyonun ayrı kurallarını uygular.",
+              "Follows separate internal operating rules."
+            ],
+            "project_id": "volunteer-onboarding",
+            "targeted": false,
+            "changed": false,
+            "expected": [
+              "Bu değişiklik uygulanmaz. Metnin tamamını koru.",
+              "This change does not apply. Preserve all text."
+            ],
+            "source_ids": []
+          },
+          {
+            "id": "workshop-invite",
+            "title": [
+              "Başka etkinliğin daveti",
+              "Other event invitation"
+            ],
+            "audience": [
+              "Başka etkinliğin katılımcısı",
+              "Participant in another event"
+            ],
+            "purpose": [
+              "Bu değişikliğin kapsamı dışındaki etkinliğe hazırlanır.",
+              "Prepares for an event outside this change's scope."
+            ],
+            "project_id": "writing-workshop",
+            "targeted": false,
+            "changed": false,
+            "expected": [
+              "Bu değişiklik uygulanmaz. Metnin tamamını koru.",
+              "This change does not apply. Preserve all text."
+            ],
+            "source_ids": []
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "s-venue",
+            "version": 5,
+            "text": "Confirmed fictional volunteer orientation: 2026-11-03 at 10:00 in Cedar Hall. Duration 45 minutes. No prior experience is required.",
+            "sha256": "69e90e6a6cddd57043965c4e62346b603be697ea1c6d28a048ad561364f76da5"
+          },
+          {
+            "source_id": "s-rsvp",
+            "version": 1,
+            "text": "The approved volunteer mobile RSVP form is https://example.invalid/volunteer/rsvp. It works on a phone. Whether it is required or optional follows the latest applicable user decision.",
+            "sha256": "e5c59ac9336393cf4c881aa72caa1e902ed7eb2c12aa9722f7c63dd8edb2378a"
+          },
+          {
+            "source_id": "s-roster",
+            "version": 1,
+            "text": "The coordinator must print one attendance roster for internal check-in. This is operator paperwork, separate from participant registration.",
+            "sha256": "b80f6686f2e7d85e3cc51f191ce42b8861f475d310b8a792e0324f246a17b221"
+          },
+          {
+            "source_id": "p-global",
+            "version": 1,
+            "text": "Earlier user feedback from workshop work: From now on, across my projects, participant-facing instructions must work on a phone and must not require printing. This remains my default until I change it. It does not apply to internal operator paperwork.",
+            "sha256": "c42d33185457037296d6982f5152b323ab5006f5e57f075bc109dea289359d09",
+            "decision": {
+              "event_id": "event-p-global",
+              "sequence": 1,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "set",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "*",
+                "audience": "participants"
+              },
+              "value": "Phone-friendly participant instructions; no required printing.",
+              "revokes_event_id": null
+            },
+            "record_sha256": "e6e359444f43aaaba473470f389b0779a23d8baa40735da800f2d856629dec75"
+          },
+          {
+            "source_id": "ui-decision-2",
+            "text": "For volunteer-onboarding participants ONLY, require printed signed consent from https://example.invalid/volunteer/consent.pdf; mobile RSVP is optional and cannot replace paper consent. Other projects and operator paperwork retain their current policies.",
+            "version": 1,
+            "sha256": "163cf62092096b937f1824c01f01f343d704a6eb6152493fb38ed76c1d689832",
+            "decision": {
+              "event_id": "event-ui-decision-2",
+              "sequence": 2,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "set",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "volunteer-onboarding",
+                "audience": "participants"
+              },
+              "value": "Printed signed consent is required; mobile RSVP is optional and does not replace paper consent.",
+              "revokes_event_id": null
+            },
+            "record_sha256": "ec581145c841055e59a46e3d5a8db34681c67ad33dfc9a89c15f21bbd5f715ec"
+          },
+          {
+            "source_id": "ui-decision-3",
+            "text": "Revoke the volunteer-onboarding paper-consent exception. Restore the phone-friendly default with mobile RSVP and no required participant printing. Keep other projects and internal coordinator paperwork unchanged.",
+            "version": 1,
+            "sha256": "2178b505984e6024258e279905ca1ca0d7d79c064aa395133042e473d39fc0f5",
+            "decision": {
+              "event_id": "event-ui-decision-3",
+              "sequence": 3,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "revoke",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "volunteer-onboarding",
+                "audience": "participants"
+              },
+              "value": null,
+              "revokes_event_id": "event-ui-decision-2"
+            },
+            "record_sha256": "b966617062fdd4d922d006da57617bad81d4cd1b440b6cc4f110c1751f9afe38"
+          },
+          {
+            "source_id": "ui-decision-4",
+            "text": "For volunteer-onboarding participants ONLY, require printed signed consent from https://example.invalid/volunteer/consent.pdf; mobile RSVP is optional and cannot replace paper consent. Other projects and operator paperwork retain their current policies.",
+            "version": 1,
+            "sha256": "163cf62092096b937f1824c01f01f343d704a6eb6152493fb38ed76c1d689832",
+            "decision": {
+              "event_id": "event-ui-decision-4",
+              "sequence": 4,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "set",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "volunteer-onboarding",
+                "audience": "participants"
+              },
+              "value": "Printed signed consent is required; mobile RSVP is optional and does not replace paper consent.",
+              "revokes_event_id": null
+            },
+            "record_sha256": "45eeaf707e249b6111462322d9a3d71f9e6d9e7545cd677bfd3f10ad3c3f4f91"
+          },
+          {
+            "source_id": "ui-decision-5",
+            "text": "Revoke the volunteer-onboarding paper-consent exception. Restore the phone-friendly default with mobile RSVP and no required participant printing. Keep other projects and internal coordinator paperwork unchanged.",
+            "version": 1,
+            "sha256": "2178b505984e6024258e279905ca1ca0d7d79c064aa395133042e473d39fc0f5",
+            "decision": {
+              "event_id": "event-ui-decision-5",
+              "sequence": 5,
+              "origin": "fictional_author_confirmed_fixture",
+              "operation": "revoke",
+              "key": "participant_registration",
+              "scope": {
+                "project_id": "volunteer-onboarding",
+                "audience": "participants"
+              },
+              "value": null,
+              "revokes_event_id": "event-ui-decision-4"
+            },
+            "record_sha256": "e0e7a1638af56c51bef2796f5fb52a4e93749b41213e95d7904e370454171dc0"
+          }
+        ],
+        "semantic_correctness_confirmed": false
+      }
+    },
+    {
+      "id": "research-noop",
+      "work": "research",
+      "job_id": "f3d7348b9c514178b2cde480fb17e48d",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nebius_token_factory",
+      "contract": "nebius_documents_v3_reasoning",
+      "reasoning_enabled": true,
+      "completed_at": "2026-10-30T01:48:22.077602+00:00",
+      "action": "noop",
+      "manual_edit_rounds": 0,
+      "reviewer": null,
+      "changed_documents": 0,
+      "repaired_documents": 0,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "disposition": "discarded",
+      "request_sha256": "d96dc347153d0662c5d5c06f0a93afd0a510eb12a1d1f10118068de68174f8fd",
+      "native_response_sha256": "375bf404d3941e3038973f786be694df96693ea8e294efcbb0597c2dcca3022a",
+      "documents": [
+        {
+          "id": "research-note",
+          "title": "Research result note",
+          "project_id": "synthetic-research-a",
+          "before": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+          "native": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+          "saved": "FINDING:\nOctober cohort A: 33/40 tasks passed (82.5%).\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nMETHOD:\nFixed authored tasks, one local run, unchanged scoring rubric.\n\nLIMIT:\nThis descriptive pilot result does not establish independent reliability, statistical significance or user time savings.",
+          "changed": false,
+          "repaired": false,
+          "before_sha256": "aeeafd61dfd99b3e06d9182fc1e6e1faa50cdb8c54ec1d5057f00458b3d4480b",
+          "native_sha256": "aeeafd61dfd99b3e06d9182fc1e6e1faa50cdb8c54ec1d5057f00458b3d4480b",
+          "saved_sha256": "aeeafd61dfd99b3e06d9182fc1e6e1faa50cdb8c54ec1d5057f00458b3d4480b"
+        },
+        {
+          "id": "progress-brief",
+          "title": "Research progress brief",
+          "project_id": "synthetic-research-a",
+          "before": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+          "native": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+          "saved": "FINDING:\nThe corrected pilot record reports 82.5%, from 33 passing tasks out of 40 in October cohort A.\n\nDECISION:\nThe authored 75% pilot continuation threshold is met.\n\nLIMIT:\nReport the correction and keep the original result in the audit trail. No general superiority claim is supported.",
+          "changed": false,
+          "repaired": false,
+          "before_sha256": "8621ae0582817a3029a4c324abf775ea503ef81eca451e474ffa37cd8644f33e",
+          "native_sha256": "8621ae0582817a3029a4c324abf775ea503ef81eca451e474ffa37cd8644f33e",
+          "saved_sha256": "8621ae0582817a3029a4c324abf775ea503ef81eca451e474ffa37cd8644f33e"
+        },
+        {
+          "id": "presentation-notes",
+          "title": "Presentation speaking notes",
+          "project_id": "synthetic-research-a",
+          "before": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains.",
+          "native": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains.",
+          "saved": "FINDING:\nSay: In our fictional October cohort A, 33 of 40 tasks passed, a descriptive rate of 82.5%.\n\nDECISION:\nSay: The authored 75% pilot continuation threshold is met.\n\nLIMIT:\nMention the fixed task set and single-run scope. Do not claim statistical significance or human productivity gains.",
+          "changed": false,
+          "repaired": false,
+          "before_sha256": "13929c8480a0a33c7061d83528a2b58e595c34b0e636a4275859d034d60c2553",
+          "native_sha256": "13929c8480a0a33c7061d83528a2b58e595c34b0e636a4275859d034d60c2553",
+          "saved_sha256": "13929c8480a0a33c7061d83528a2b58e595c34b0e636a4275859d034d60c2553"
+        }
+      ],
+      "packet": null,
+      "review_context": {
+        "kind": "source_derived_review_context_v1",
+        "work": "research",
+        "mode": "recorded",
+        "snapshot_sha256": "5e3d4a9b98c242b5ced547f1c0de2bf75be595a49145a4fe5a1ff0739612ed92",
+        "expected": [
+          "Aynı çalışma: 33 / 40 · %82.5",
+          "Same study: 33 / 40 · 82.5%"
+        ],
+        "calculations": [
+          [
+            "33 ÷ 40 × 100 = %82.5",
+            "33 ÷ 40 × 100 = 82.5%"
+          ],
+          [
+            "%75 eşiği karşılanıyor. Karar bu hesaba bağlı.",
+            "The 75% threshold is met. The decision follows this calculation."
+          ]
+        ],
+        "preserve": [
+          "Yöntem, sınırlılıklar ve genelleme yapılmaması korunmalı.",
+          "Preserve the method, limitations and restriction on generalization."
+        ],
+        "documents": [
+          {
+            "id": "research-note",
+            "title": [
+              "Sonuç notu",
+              "Result note"
+            ],
+            "audience": [
+              "Araştırmacı",
+              "Researcher"
+            ],
+            "purpose": [
+              "Sonucun sayılarını, hesabını ve yöntemini kontrol eder.",
+              "Checks the counts, calculation and method."
+            ],
+            "project_id": "synthetic-research-a",
+            "targeted": true,
+            "changed": false,
+            "expected": [
+              "Aynı çalışma: 33 / 40 · %82.5",
+              "Same study: 33 / 40 · 82.5%"
+            ],
+            "source_ids": [
+              "cohort-a-results"
+            ]
+          },
+          {
+            "id": "progress-brief",
+            "title": [
+              "İlerleme özeti",
+              "Progress brief"
+            ],
+            "audience": [
+              "Proje sorumlusu",
+              "Project lead"
+            ],
+            "purpose": [
+              "Sonuca bağlı devam kararını değerlendirir.",
+              "Reviews the continuation decision based on the result."
+            ],
+            "project_id": "synthetic-research-a",
+            "targeted": true,
+            "changed": false,
+            "expected": [
+              "Aynı çalışma: 33 / 40 · %82.5",
+              "Same study: 33 / 40 · 82.5%"
+            ],
+            "source_ids": [
+              "cohort-a-results"
+            ]
+          },
+          {
+            "id": "presentation-notes",
+            "title": [
+              "Sunum notları",
+              "Speaking notes"
+            ],
+            "audience": [
+              "Sunumu yapan kişi",
+              "Presenter"
+            ],
+            "purpose": [
+              "Aynı sonucu ve sınırlılıkları dinleyicilere aktarır.",
+              "Communicates the same result and limitations."
+            ],
+            "project_id": "synthetic-research-a",
+            "targeted": true,
+            "changed": false,
+            "expected": [
+              "Aynı çalışma: 33 / 40 · %82.5",
+              "Same study: 33 / 40 · 82.5%"
+            ],
+            "source_ids": [
+              "cohort-a-results"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "cohort-a-results",
+            "text": "Author-confirmed corrected fictional results for this SAME cohort: {\"cohort\": \"October cohort A\", \"method\": \"Fixed authored tasks, one local run, unchanged scoring rubric\", \"passed\": 33, \"total\": 40}. The authored continuation threshold is 75%. Compute the percentage to one decimal place and update the conclusion. Method and limitations are unchanged.",
+            "version": 3,
+            "sha256": "d3add2a47eccb11567cab558e96db8bdca7e9d8353519c8dafc7f72234989d84"
+          }
+        ],
+        "semantic_correctness_confirmed": false
+      }
+    }
+  ],
+  "all_calls": [
+    {
+      "job_id": "5c5a448da96e459bbdd7327f04beea7f",
+      "work": "project",
+      "outcome": "accepted_without_edits",
+      "contract": "nebius_documents_v1",
+      "completed_at": "2026-10-30T00:57:51.638252+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "accepted"
+    },
+    {
+      "job_id": "32a2f88342284cf49878dd3c2c8d01ab",
+      "work": "research",
+      "outcome": "accepted_without_edits",
+      "contract": "nebius_documents_v1",
+      "completed_at": "2026-10-30T00:59:45.889703+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "accepted"
+    },
+    {
+      "job_id": "6483bc1548cd448a8ced1efad72d4eb3",
+      "work": "volunteer",
+      "outcome": "repaired",
+      "contract": "nebius_documents_v1",
+      "completed_at": "2026-10-30T01:02:02.214188+00:00",
+      "manual_edit_rounds": 1,
+      "disposition": "accepted"
+    },
+    {
+      "job_id": "6042ac33b1c84929bedd7d4199e06d21",
+      "work": "research",
+      "outcome": "blocked",
+      "contract": "nebius_documents_v1",
+      "completed_at": "2026-10-30T01:04:46.818306+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "discarded"
+    },
+    {
+      "job_id": "c3dce3c5a76c41cea8ba6169d961dfe6",
+      "work": "research",
+      "outcome": "blocked",
+      "contract": "nebius_documents_v2_complete_links_no_rewrites",
+      "completed_at": "2026-10-30T01:09:09.602445+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "discarded"
+    },
+    {
+      "job_id": "9e3c2c93a27a46248bcbff37f7f22b79",
+      "work": "volunteer",
+      "outcome": "repaired",
+      "contract": "nebius_documents_v2_complete_links_no_rewrites",
+      "completed_at": "2026-10-30T01:16:13.150030+00:00",
+      "manual_edit_rounds": 1,
+      "disposition": "accepted"
+    },
+    {
+      "job_id": "bba1d2404569428baefa3b4b66affddf",
+      "work": "research",
+      "outcome": "unchanged",
+      "contract": "nebius_documents_v3_reasoning",
+      "completed_at": "2026-10-30T01:32:49.371584+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "discarded"
+    },
+    {
+      "job_id": "c958104444684213afd29760691d1f1c",
+      "work": "volunteer",
+      "outcome": "accepted_without_edits",
+      "contract": "nebius_documents_v3_reasoning",
+      "completed_at": "2026-10-30T01:35:17.084466+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "accepted"
+    },
+    {
+      "job_id": "241bc3468bda41e6924b06cbca09c559",
+      "work": "volunteer",
+      "outcome": "repaired",
+      "contract": "nebius_documents_v3_reasoning",
+      "completed_at": "2026-10-30T01:38:41.478256+00:00",
+      "manual_edit_rounds": 1,
+      "disposition": "accepted"
+    },
+    {
+      "job_id": "b9115341bd414b1f87e50f59b7b10ee5",
+      "work": "research",
+      "outcome": "accepted_without_edits",
+      "contract": "nebius_documents_v3_reasoning",
+      "completed_at": "2026-10-30T01:42:17.555270+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "accepted"
+    },
+    {
+      "job_id": "f3d7348b9c514178b2cde480fb17e48d",
+      "work": "research",
+      "outcome": "unchanged",
+      "contract": "nebius_documents_v3_reasoning",
+      "completed_at": "2026-10-30T01:48:22.077602+00:00",
+      "manual_edit_rounds": 0,
+      "disposition": "discarded"
+    }
+  ],
+  "evidence_workspace_sha256": "7027f570dd1b1dcc3fd6bff8422fb8c20131f8e45e8d8eae778ebf88f0ce62ea",
+  "verified_external_calls": 11,
+  "audit_events": 36
+}
